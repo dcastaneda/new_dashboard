@@ -6,7 +6,7 @@ from dash_labs.plugins.pages import register_page
 from components.maps.mapcol_departamentos import mapcol_departamentos
 from components.sampledf.model import df_maptest,df_mapfull
 from components.table.table import table
-from components.dict_list import dict_list
+from components.dict_list.dict_list import dict_list
 
 
 mapa_colombia_departamentos = mapcol_departamentos('Mapa Departamentos Colombia', 'div_municipios_fig2',df_mapfull,"COUNT")

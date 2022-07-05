@@ -16,5 +16,5 @@ class dict_list:
         return a_options
     
     def listav(self):
-        litaval=list(self.options.DEPARTAMENTO)
-        return listaval
+        listav=list(self.options.DEPARTAMENTO)
+        return listav
